@@ -1,0 +1,25 @@
+# Python tooling and caches
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+
+# Local user data and credentials
+data/
+feeds.json
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
